@@ -41,5 +41,6 @@ predict = reg.predict(data[["experience","test_score(out of 10)","interview_scor
 print(predict)
 
 ## testing a data for 12 year exp with 10 ,10 marks 
+##hr assis
 sal = reg.predict([[12,10,10]])
 print("predicted salary : ",sal)
